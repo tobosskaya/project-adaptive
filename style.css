@@ -1,0 +1,158 @@
+
+*{
+	box-sizing: border-box;
+	/*background-color: #F8F8F8;*/
+}
+h2{
+	font-size: 30px;
+}
+.story{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 10em;
+	font-family: Arial;
+	color: #E1E5DC;
+	padding-top: 50px;
+	position: relative;
+}
+.marcy{
+	background-color: #3CBE98;
+	color: #FFF;
+	font-size: 3rem;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 45%;
+	padding-top: 0;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.beginning{
+	margin: 0px 0px 70px 90px;
+	display: flex;
+	justify-content: space-between;
+}
+.beginning__text{
+	width: 35%;
+	text-align: left;
+}
+.beginning__lake{
+	width: 50%;
+}
+.lake-icon{
+	width: 600px;
+	height: 600px;
+	border-top: 11px solid rgb(245 255 250);
+	border-bottom: 11px solid rgb(245 255 250);
+	border-left: 11px solid rgb(245 255 250);
+	position: relative;
+	top: 30px;
+}
+.cafe-icon{
+	border: 11px solid rgb(245 255 250);
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	bottom: 60px;
+	right: 550px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+button{
+	background-color: #3CBE98;
+	color: #FFF;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.continuation{
+	margin: 0 auto;
+	width: 60%;
+}
+.girl-icon{
+	border: 11px solid rgb(245 255 250);
+}
+.continuation__title{
+	text-align: center;
+}
+.continuation__text{
+	margin: 0 auto;
+	width: 55%;
+	text-align: left;
+}
+.video{
+	background-image:url('images/mountain-icon.jpg');
+	margin-bottom: 100px;
+}
+.conclusion{
+	margin-bottom: 300px;
+}
+.conclusion__laptop-and-title{
+	display: flex;
+	position: relative;
+}
+.laptop-icon{
+	width: 400px;
+	height: 280px;
+	border: 11px solid rgb(245 255 250);
+}
+.conslusion__laptop-image{
+	margin-right: 40px;
+}
+.conslusion__title{
+	text-align: left;
+}
+.conslusion__quote{
+	background-color: rgb(245, 228, 203);
+	width: 550px;
+	height: 200px;
+	text-align: left;
+	padding-top: 50px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-bottom: 100px;
+	/*position: absolute;
+	bottom: 10px;
+	right: : 100px;*/
+}
+footer{
+	background-image:url('images/forest-icon.jpg');
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 700px;
+	min-width: 100%;
+	position: relative;
+}
+.footer__subscribe{
+	width: 500px;
+	height: 300px;
+	background-color: rgba(59, 74, 74, 0.8);
+	position: absolute;
+	top: 200px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+.subscribe-text{
+	color: #FFF;
+	padding: 20px 30px;
+	text-align: center;
+}
+input{
+	background-color: rgba(59, 74, 74, 0.8);
+	color: #FFF;
+	border-radius: 10px;
+}
+.input{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.subscribe-botton{
+	position: absolute;
+	text-align: center;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
